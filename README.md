@@ -23,25 +23,19 @@ The **Customer Order Management System** is a web-based application built using 
 ### Navigation
 - Intuitive navigation bar for seamless transitions between Customers, Products, and Orders pages.
 
-## Technology Stack
-- **Frontend**: Razor Pages with Bootstrap for responsive design.
-- **Backend**: ASP.NET Core 6.0
-- **Database**: SQLite
-- **ORM**: Entity Framework Core
-- **IDE**: Visual Studio 2022
 
 ## Project Structure
 ```
 CustomerOrderManagement/
-├── Pages/              # Razor Pages for Customers, Products, and Orders
-│   ├── Customers/      # CRUD pages for managing customers
-│   ├── Products/       # CRUD pages for managing products
-│   ├── Orders/         # CRUD pages for managing orders
-├── Data/               # Database context (NorthwindContext)
-├── Models/             # Models for Customers, Products, and Orders
-├── wwwroot/            # Static files (CSS, JS, etc.)
-├── appsettings.json    # Configuration file for database
-└── Program.cs          # Application entry point
+├── Pages/              
+│   ├── Customers/      
+│   ├── Products/       
+│   ├── Orders/         
+├── Data/               
+├── Models/             
+├── wwwroot/            
+├── appsettings.json    
+└── Program.cs          
 ```
 
 ## How to Run the Project
@@ -55,9 +49,6 @@ CustomerOrderManagement/
    dotnet run
    ```
 4. Navigate to `http://localhost:<port>` in your browser to use the application.
-
-## Demo
-[Insert video link here]
 
 ## Code Highlights
 ### Database Context
