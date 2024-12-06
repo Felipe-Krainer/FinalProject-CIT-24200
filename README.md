@@ -41,9 +41,9 @@ CustomerOrderManagement/
 ## How to Run the Project
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   [git clone <repository-url>](https://github.com/Felipe-Krainer/FinalProject-CIT-24200)
    ```
-2. Open the solution in **Visual Studio 2022**.
+2. Open the solution in **Visual Studio Code**.
 3. Build and run the project:
    ```bash
    dotnet run
